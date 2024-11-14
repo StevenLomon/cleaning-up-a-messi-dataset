@@ -4,7 +4,7 @@
 This project tackles the notorious FIFA 21 dataset, known for its “messy” qualities—perfect for a comprehensive data cleaning and quality assurance workflow. The goal is to clean and validate the data to prepare it for analysis, and then load the cleaned dataset into a relational database. "Tackles" and "goal", the puns are everywhere here. This project simulates real-world data handling and showcases the data cleaning, quality assurance, and database handling skills essential in data analytics.
 
 ## Dataset
-* Dataset: FIFA 21 Messy Raw Dataset for Cleaning & Exploring
+* Dataset: [FIFA 21 Messy Raw Dataset for Cleaning & Exploring](https://www.kaggle.com/datasets/yagunnersya/fifa-21-messy-raw-dataset-for-cleaning-exploring)
 * Source: Kaggle
 * Description: This dataset contains detailed attributes for over 18,000 players in FIFA 21, with various issues typical of raw data, including missing values, duplicates, and inconsistent formats. The dataset provides a realistic challenge for data cleaning and quality assurance practices.
 
