@@ -1,0 +1,25 @@
+name: Data Analysis CI
+
+on: [push, pull_request]
+
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: Checkout code
+              uses: actions/checkout@v2
+
+            - name: Set up Python
+              uses: actions/setup-python@v2
+              with:
+                python-version: '3.10.x'
+
+            - name: Install dependencies
+              run: |
+                python3 -m pip install —upgrade pip
+                pip install -r requirements.txt
+
+            - name: Run Linter
+              run: |
+                pip install flake8
+                flake8 notebooks/ scripts/
